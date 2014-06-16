@@ -8,7 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Muchdoge::VERSION
   spec.authors       = ["addisonbean"]
   spec.email         = ["addisonbean@gmail.com"]
-  spec.summary       = "Dogeifies STDOUT"
+  spec.summary       = "Dogeifies all output that uses puts."
+  spec.description   = "Dogeifies all output that uses puts."
+  spec.homepage      = "https://github.com/Addisonbean/Muchdoge"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
