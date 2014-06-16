@@ -1,6 +1,6 @@
 # Muchdoge
 
-TODO: Write a gem description
+Dogeifies all output that uses puts.
 
 ## Installation
 
@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just print to STDOUT using `puts`
+
+Example:
+
+    > require "muchdoge"
+
+    > puts "Hello world!"
+    so world. wow.
+    => nil
+
+    > puts ["He who dares, wins!", "Qui audet adipiscitur!"]
+    so dares. wow. amaze.
+	so qui. wow. such audet. amaze. very adipiscitur. excite. wow.
+	=> nil
 
 ## Contributing
 
